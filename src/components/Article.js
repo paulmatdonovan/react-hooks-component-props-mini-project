@@ -1,8 +1,7 @@
 import React from "react";
 
 
-
-function Article({ title, date, preview }) {
+function Article({ title, date = "January 1, 1970", preview }) {
 
     return (
         <article>
@@ -12,9 +11,6 @@ function Article({ title, date, preview }) {
         </article>
     )
 }
-
-
-
 
 
 export default Article

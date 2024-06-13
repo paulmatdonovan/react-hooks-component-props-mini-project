@@ -1,20 +1,19 @@
 import React from "react"
-import Article from "./Article.js"
+import Article from "./Article"
 
 function ArticleList({ posts }) {
-    const articles = posts.map((postOb) => {
+    const articleArray = posts.map(post => {
         return (
 
             <Article
-                key={postOb.id}
-                title={postOb.title}
-                date={postOb.date}
-                preview={postOb.preview} />
-
+                key={post.id}
+                title={post.title}
+                date={post.date}
+                preview={post.preview} />
         )
     })
     return (
-        <main>{articles}</main>
+        <main>{articleArray}</main>
     )
 
 }
