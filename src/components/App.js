@@ -3,14 +3,15 @@ import blogData from "../data/blog";
 import Header from './Header.js'
 import About from './About.js'
 import ArticleList from "./AticleList";
+import Phuket from '../assets/Phuket.jpg'
 
 console.log(blogData);
 
 function App() {
   return (
     <div className="App">
-      <Header name="Underreacted" />
-      <About image={blogData.image} about={blogData.about} />
+      <Header name="Rejuvenate" />
+      <About image={Phuket} about={blogData.about} />
       <ArticleList posts={blogData.posts} />
 
     </div>
