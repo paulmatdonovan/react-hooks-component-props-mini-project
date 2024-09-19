@@ -1,0 +1,57 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    box-shadow: 0 1px 3px -2px rgb(176, 171, 171);
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    color: azure;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-logo p {
+    color: azure;
+    font-size: 37px;
+    margin-right: 25px;
+    font-weight: 600px;
+}
+
+.nav-logo img {
+    height: 100px;
+    width: 100px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px;
+    color: antiquewhite;
+}
+
+.nav-menu li {
+    display: flex;
+    color: azure;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+}
+
+.navbar-menu {
+    color: azure;
+    text-decoration: none;
+}
+
+.navbar-menu:hover {
+    background: slategray;
+}
