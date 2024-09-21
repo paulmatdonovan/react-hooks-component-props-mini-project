@@ -2,19 +2,19 @@
   "posts": [
     {
       "id": 1,
-      "title": "Components 101",
-      "date": "December 15, 2020",
-      "preview": "Setting up the building blocks of your site",
+      "title": "Thoughts on living in Thailand",
+      "date": "December 15, 2023",
+      "preview": "Live, work and play",
       "minutes": 5,
-      "content": "Setting up the building blocks of your site"
+      "content": "I had rarely travelled before I decided to hop on a plane and live in Thailand for the rest of my life.I ended up working and living in Thailand for only one year. Most of my friends said it would last only a few months, so I'm glad I could at least stick it out that long.I've come to realise many people have decided, like me, to relocate to Thailand from the West.There are many good and bad things about living in another country. I have been back in Australia for a while now and I suppose it is a good time to reflect on the experience. Of course, I did read Atomic Habits as well. One of the strategies I use is the Daily Habit Tracker, where the aim is to keep a daily record of what you do each day. For example, if your desired habit is to write a blog post every day, you should make a tick in the daily habit tracker if you manage to write that day. If you didn’t achieve that task on a given day, you should make sure that you don’t miss two days in a row. The idea is that it helps you to form a new habit. "
     },
     {
       "id": 2,
-      "title": "React Data Flow",
+      "title": "Self-development Books You Should Read",
       "date": "December 11, 2020",
-      "preview": "Passing props is never passé",
+      "preview": "Reading your way to the top",
       "minutes": 15,
-      "content": "Setting up the building blocks of your site"
+      "content": "The first book was called, How to Fail at Everything and Win Big. Anyway, it was a really great book. It was the best book I have read about success and I often think back about it. For example, he claims he used affirmations to help him achieve specific things. I have also used affirmations in life and this has gotten me out of difficult situations I used a kind of. I enjoyed reading it as the story was told in a laid-back, humorous style where he made fun of his failure and the difficulties he had encountered. He also suggested what success meant and what your life would look like if it were more successful such as having more autonomy in your daily schedule. He also first introduced to me the idea that it's better to have a system than a goal if you want to succeed. If you have a goal, then you are always feeling unhappy when you are not arriving at that goal. If you have a system such as training each day, then you can celebrate when you are executing your system. Kind of like the recodiation in Atomic Habits where your daily habits become a kind of system to propel you into a better life."
     },
     {
       "id": 3,

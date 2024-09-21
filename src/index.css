@@ -5,6 +5,14 @@
   --text: hsla(0, 0%, 100%, 0.88);
 }
 
+.link-style {
+  color: bisque;
+  text-decoration: none;
+  font-family: Montserrat, sans-serif;
+  margin-left: 20px;
+  font-size: 1.1em;
+}
+
 body {
   margin: 0;
   font-family: "Merriweather", "Georgia", serif;
@@ -32,6 +40,16 @@ header h1 {
   font-size: 3em;
 }
 
+.home {
+  font-size: 2em;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  color: #61dafb;
+  text-emphasis: inherit;
+  margin-top: 45px;
+  padding-top: 30px;
+}
+
 aside {
   display: flex;
   margin-bottom: 3rem;
@@ -51,17 +69,30 @@ article {
 }
 
 article p {
-  margin-top: 0.25rem;
+  margin-top: 0.5rem;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.1em;
 }
 
 article h3 {
   color: var(--link);
-  margin-bottom: 0rem;
+  margin-bottom: 15px;
 }
 
 .create h3 {
   color: var(--link);
   margin-bottom: 0rem;
+}
+
+.article-detail h3 {
+  color: var(--link);
+  margin-bottom: 25px;
+}
+
+.article-detail p {
+  margin-top: 0.5rem;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.3em;
 }
 
 .blog-create {
@@ -105,7 +136,6 @@ article h3 {
   font-family: Montserrat, sans-serif;
   font-size: 1.1em;
   line-height: 22px;
-
 
 }
 
