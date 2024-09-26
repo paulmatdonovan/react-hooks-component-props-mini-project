@@ -29,12 +29,9 @@ function App() {
           <Route path='/' element={<Header name="Rejuvenate" />} />
           <Route path='/about' element={<About image={Phuket} about={blogData.about} />} />
           <Route path='/articles' element={<Article posts={articles} />} />
-
           <Route path='/article/:id' element={<ArticleList posts={articles} />} >
           </Route>
-
-          <Route path='/add' element={<AddContent />} />
-
+          <Route path='/add' element={<AddContent setArticles={setArticles} />} />
         </Routes>
       </BrowserRouter>
     </div >

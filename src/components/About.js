@@ -2,8 +2,7 @@ import React from "react";
 
 function About({ about, image = "https://via.placeholder.com/215" }) {
     return (
-        <div className="about">            {/* <img src={image} alt="blog logo">
-            </img> */}
+        <div className="about">
             <h4>About This Blog</h4>
             <p>
                 Welcome to a space where words matter, stories come to life, and writers find their voice.</p>
