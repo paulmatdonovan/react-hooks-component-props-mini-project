@@ -14,7 +14,7 @@ function App() {
   const [articles, setArticles] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/posts")
+    fetch("https://server-1-gaf8.onrender.com/posts")
       .then((r) => r.json())
       .then((data) => {
         setArticles(data);
